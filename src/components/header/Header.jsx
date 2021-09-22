@@ -17,6 +17,13 @@ const Header = () => {
                     Home
                 </MenuItem>
 
+                <MenuItem
+                    key='2'
+                    path='product-item'
+                >
+                    Product Item
+                </MenuItem>
+
                 <button
                     className='card_btn'
                     onClick={() => setPopupFlag(true)}

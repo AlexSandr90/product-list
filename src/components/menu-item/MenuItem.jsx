@@ -1,6 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import classes from './menu-ite.module.scss';
+import classes from './menu-item.module.scss';
 
 const MenuItem = ({ id, path, children }) => {
     return (
